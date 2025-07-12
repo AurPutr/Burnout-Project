@@ -1,1 +1,1 @@
-# Burnout-Project
+This project aimed to explore the key factors influencing employee burnout in the workplace using a real-world survey dataset. The goal was to uncover patterns and relationships between variables such as working hours, sleep, job role, manager support, and burnout risk — and to visualize these insights clearly to guide decision-making for employee well-being strategies. Technologies used: Pandas - Data loading and preprocessing; Seaborn / Matplotlib - Data visualization; Categorical binning - Custom grouping of scores for clearer comparisons.
