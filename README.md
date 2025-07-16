@@ -6,7 +6,7 @@
 This project aimed to explore the key factors influencing employee burnout using a real-world survey dataset. The objective was to uncover patterns between variables such as working hours, sleep, job role, manager support, and burnout risk — and to visualize these insights to guide employee well-being strategies.
 
 
-Project Overview
+## Project Overview
 Using Python and popular data analysis libraries, the project walks through:
     - Cleaning and preparing a workplace mental health survey dataset
     - Visualizing burnout patterns using scatter plots, box plots, and categorical plots
@@ -19,38 +19,37 @@ The project also includes **segmented analysis by gender and job role** to highl
 
 
 ## Technologies Used
-    - **Python**
-    - **Pandas** – for data cleaning and manipulation
-    - **Seaborn / Matplotlib** – for visual analytics
-    - **Categorical binning** – to group continuous scores into qualitative categories for easier comparison
+- **Python**
+- **Pandas** – for data cleaning and manipulation
+- **Seaborn / Matplotlib** – for visual analytics
+- **Categorical binning** – to group continuous scores into qualitative categories for easier comparison
 
 
 ## Install
 This project requires Python and the following packages:
 
-    **pandas**
-    **matplotlib**
-    **seaborn**
+ **pandas**
+ **matplotlib**
+ **seaborn**
 Install them via pip:
 
-```bash 
+```bash
     pip install pandas matplotlib seaborn
+```
+
+## Code
+All analysis is implemented in a single Python file (e.g., `burnout_analysis.py`) and assumes the dataset `file mental_health_workplace_survey.csv` is in the same directory.
 
 
-Code
-All analysis is implemented in a single Python file (e.g., burnout_analysis.py) and assumes the dataset file mental_health_workplace_survey.csv is in the same directory.
-
-
-Run
+## Run
 To run the script, simply execute:
 
-bash
-    python burnout_analysis.py
+    `python burnout_analysis.py`
 
 This will open and display a series of plots in your default Python environment.
 
 
-Data
+## Data
 The dataset contains real survey responses from employees, with features such as:
     Key Features
         - WorkHoursPerWeek: Weekly working time
