@@ -1,8 +1,8 @@
-Employee Burnout Analysis
-Project: Mental Health & Productivity Trends in the Workplace
+# Employee Burnout Analysis
+## Project: Mental Health & Productivity Trends in the Workplace
 
 
-Description
+## Description
 This project aimed to explore the key factors influencing employee burnout using a real-world survey dataset. The objective was to uncover patterns between variables such as working hours, sleep, job role, manager support, and burnout risk — and to visualize these insights to guide employee well-being strategies.
 
 
@@ -15,22 +15,25 @@ Using Python and popular data analysis libraries, the project walks through:
         - Sleep, job satisfaction, and productivity
         - Gender differences in burnout risk
         - Work-life balance, physical activity, and career growth perception
-The project also includes segmented analysis by gender and job role to highlight how different groups experience burnout.
+The project also includes **segmented analysis by gender and job role** to highlight how different groups experience burnout.
 
 
-Technologies Used
-    - Python
-    - Pandas – for data cleaning and manipulation
-    - Seaborn / Matplotlib – for visual analytics
-    - Categorical binning – to group continuous scores into qualitative categories for easier comparison
+## Technologies Used
+    - **Python**
+    - **Pandas** – for data cleaning and manipulation
+    - **Seaborn / Matplotlib** – for visual analytics
+    - **Categorical binning** – to group continuous scores into qualitative categories for easier comparison
 
 
-Install
+## Install
 This project requires Python and the following packages:
-    pandas
-    matplotlib
-    seaborn
+
+    **pandas**
+    **matplotlib**
+    **seaborn**
 Install them via pip:
+
+```bash 
     pip install pandas matplotlib seaborn
 
 
@@ -40,7 +43,10 @@ All analysis is implemented in a single Python file (e.g., burnout_analysis.py) 
 
 Run
 To run the script, simply execute:
+
+bash
     python burnout_analysis.py
+
 This will open and display a series of plots in your default Python environment.
 
 
